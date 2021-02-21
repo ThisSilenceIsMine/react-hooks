@@ -23,8 +23,8 @@ const Translate = () => {
     const [text, setText] = useState("");
 
     return (
-        <div>
-            <div className="ui form">
+        <div className="container">
+            <div className="ui form container">
                 <div className="field">
                     <label>Enter text</label>
                     <input
